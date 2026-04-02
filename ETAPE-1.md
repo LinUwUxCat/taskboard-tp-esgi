@@ -38,3 +38,5 @@ On peut restaurer l'état du projet a un commit présent dans l'historique, donc
 3. Ajouter `.env` au `.gitignore` et vérifier qu'il n'est plus tracké
 4. Choisir et mettre en place la solution adaptée au contexte du TP (CI/CD sur GitHub)
 5. Vérifier que l'application démarre toujours correctement avec la nouvelle gestion des secrets
+
+`git log --all --full-history -- .env` ne retourne rien.
