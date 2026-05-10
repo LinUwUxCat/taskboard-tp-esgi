@@ -1,0 +1,13 @@
+services:
+  deploy-server:
+    build: .
+    container_name: deploy-server
+
+    ports:
+      - "2222:22"
+
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./authorized_keys:/home/deploy/.ssh/authorized_keys
+
+    restart: unless-stopped
