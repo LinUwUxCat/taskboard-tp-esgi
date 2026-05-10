@@ -17,8 +17,13 @@ On peut utiliser des outils comme postman, bruno, et leurs outils de script int�
 
 # Critère de validation 
 - npm test (ou npm run test) : 
+<img width="307" height="117" alt="image" src="https://github.com/user-attachments/assets/1999ecc3-4b3e-46b3-a576-191d313b9f59" />
 
 - npm run test:coverage : (un rapport est aussi produit dans le dossier coverage/)
+<img width="795" height="371" alt="image" src="https://github.com/user-attachments/assets/4e01143f-08a9-4360-a52b-efbbf74ad42c" />
 
 - npm run lint : 
 
+<img width="213" height="112" alt="image" src="https://github.com/user-attachments/assets/2023e307-aad6-4261-b96d-aa43eb2e561f" />
+
+aucun output, aucun problème.
