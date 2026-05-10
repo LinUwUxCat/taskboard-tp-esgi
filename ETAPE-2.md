@@ -25,4 +25,15 @@ Une image de développement va contenir les dépendances dev (eslint, etc) alors
 - Gestion des dépendances 
     - npm ci fait un clean avant l'install, on est donc sur que l'espace de travail est clean.
     - les devDependencies peuvent être exclues de la build, on en a pas besoin
-    - ?
+
+# Critères de validation
+- l'application se lance :
+
+<img width="686" height="154" alt="image" src="https://github.com/user-attachments/assets/00f02051-4534-4f5e-9c73-e1050d8ca4cd" />
+
+- L'image fait moins de 300mo (screenshot docker desktop) :
+
+<img width="680" height="49" alt="image" src="https://github.com/user-attachments/assets/56b151b5-1774-46ee-a5f5-e4b2cd0bc89e" />
+
+
+
